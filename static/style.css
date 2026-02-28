@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+
+/* Navbar */
+.navbar {
+    background-color: powderblue;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar h2 {
+    margin: 0;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #1877f2;
+    font-weight: bold;
+}
+
+/* Events container */
+.events-container {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+/* Event card */
+.event-card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.event-card h3 {
+    margin-top: 0;
+}
